@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wilwa/ontologies/2025/2/untitled-ontology-206"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wilwa/ontologies/2025/2/untitled-ontology-206">
+    <Prefix name="" IRI="http://www.semanticweb.org/wilwa/ontologies/2025/2/untitled-ontology-206/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl</Import>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007610"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007613"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0008150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://disease-ontology.org/?id=DOID:10652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://disease-ontology.org/?id=DOID:1289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://disease-ontology.org/?id=DOID:4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://disease-ontology.org/?id=DOID:680"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000031"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007610"/>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007611"/>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007613"/>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0007611"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0008150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://disease-ontology.org/?id=DOID:10652"/>
+        <Class IRI="https://disease-ontology.org/?id=DOID:680"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://disease-ontology.org/?id=DOID:1289"/>
+        <Class IRI="https://disease-ontology.org/?id=DOID:4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://disease-ontology.org/?id=DOID:4"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://disease-ontology.org/?id=DOID:680"/>
+        <Class IRI="https://disease-ontology.org/?id=DOID:1289"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
+        <Class IRI="https://amigo.geneontology.org/amigo/term/GO:0008150"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000030</IRI>
+        <Literal xml:lang="en">representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000030</IRI>
+        <Literal xml:lang="en">A specifically dependent continuant which is about a portion of reality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000031</IRI>
+        <Literal xml:lang="en">cognitive representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000031</IRI>
+        <Literal xml:lang="en">A representation which specifically depends on an anatomical structure in the cognitive system of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000073</IRI>
+        <Literal xml:lang="en">intentionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000073</IRI>
+        <Literal xml:lang="en">Intentionality is the fundamental quality of conscious mental processes of always having content, of being directed towards, or about something.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000074</IRI>
+        <Literal xml:lang="en">bodily quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000074</IRI>
+        <Literal xml:lang="en">A quality that inheres in some extended organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000075</IRI>
+        <Literal xml:lang="en">mental quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/MF_0000075</IRI>
+        <Literal xml:lang="en">A bodily quality that inheres in those structures of the extended organism that are essential for mental functioning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007610</IRI>
+        <Literal xml:lang="en">behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007610</IRI>
+        <Literal xml:lang="en">The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007611</IRI>
+        <Literal xml:lang="en">learning or memory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007611</IRI>
+        <Literal xml:lang="en">The acquisition and processing of information and/or the storage and retrieval of this information over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007613</IRI>
+        <Literal xml:lang="en">memory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0007613</IRI>
+        <Literal xml:lang="en">The activities involved in the mental information processing system that receives (registers), modifies, stores, and retrieves informational stimuli. The main stages involved in the formation and retrieval of memory are encoding (processing of received information by acquisition), storage (building a permanent record of received information as a result of consolidation) and retrieval (calling back the stored information and use it in a suitable way to execute a given task).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0008150</IRI>
+        <Literal xml:lang="en">biological process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://amigo.geneontology.org/amigo/term/GO:0008150</IRI>
+        <Literal xml:lang="en">the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://disease-ontology.org/?id=DOID:10652</IRI>
+        <Literal xml:lang="en">alzheimer&apos;s disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://disease-ontology.org/?id=DOID:10652</IRI>
+        <Literal xml:lang="en">A tauopathy that is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability and results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://disease-ontology.org/?id=DOID:1289</IRI>
+        <Literal xml:lang="en">neurodegenerative disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://disease-ontology.org/?id=DOID:1289</IRI>
+        <Literal xml:lang="en">A central nervous system disease that results in the progressive deterioration of function or structure of neurons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://disease-ontology.org/?id=DOID:4</IRI>
+        <Literal xml:lang="en">disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://disease-ontology.org/?id=DOID:4</IRI>
+        <Literal xml:lang="en">A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://disease-ontology.org/?id=DOID:680</IRI>
+        <Literal xml:lang="en">tauopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://disease-ontology.org/?id=DOID:680</IRI>
+        <Literal xml:lang="en">A neurodegenerative disease that has_material_basis_in the pathological aggregation of tau protein in so-called neurofibrillary tangles (NFT) in the human brain.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
