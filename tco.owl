@@ -85,6 +85,66 @@ The main taxonomical guide for TCO comes from: Kuhn RL. A landscape of conscious
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000119>
         <rdfs:label xml:lang="en">process profile</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <obo:IAO_0000111 xml:lang="en">consciousness</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Consciousness is an inseparable part of all mental processes. It is that part of the mental process that: a) confers a subjective perspective, a phenomenology, an experience of the mental process of which it is a part; and b) intends the object or event that the mental process is about, should such exist; i.e., it confers intentionality on the mental process.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/jannahastings/mental-functioning-ontology/blob/master/ontology/internal/MF-core.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">consciousness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000111 xml:lang="en">representation</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A dependent continuant which is about a portion of reality.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://www.jbiomedsem.com/content/1/1/10</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">representation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000075"/>
+        <obo:IAO_0000111 xml:lang="en">intentionality</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Intentionality is the fundamental quality of conscious mental processes of always having content, of being directed towards, or about something.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/jannahastings/mental-functioning-ontology/blob/master/ontology/internal/MF-core.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">intentionality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000111 xml:lang="en">bodily quality</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A bodily quality is a quality that inheres in some extended organism.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/jannahastings/mental-functioning-ontology/blob/master/ontology/internal/MF-core.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bodily quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000074"/>
+        <obo:IAO_0000111 xml:lang="en">mental quality</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A mental quality is a bodily quality that inheres in those structures of the extended organism that are essential for mental functioning.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/jannahastings/mental-functioning-ontology/blob/master/ontology/internal/MF-core.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mental quality</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
