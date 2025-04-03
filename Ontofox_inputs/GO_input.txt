@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+#Gene Ontology
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological process
+http://purl.obolibrary.org/obo/GO_0003008 #system process
+http://purl.obolibrary.org/obo/GO_0050877 #nervous system process
+http://purl.obolibrary.org/obo/GO_0050890 #cognition
+http://purl.obolibrary.org/obo/GO_0007611 #learning or memory
+http://purl.obolibrary.org/obo/GO_0007613 #memory
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/GO_0007611 #learning or memory
+subClassOf http://purl.obolibrary.org/obo/GO_0050890 #cognition
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
