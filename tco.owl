@@ -74,6 +74,14 @@ The main taxonomical guide for TCO comes from: Kuhn RL. A landscape of conscious
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
@@ -84,6 +92,78 @@ The main taxonomical guide for TCO comes from: Kuhn RL. A landscape of conscious
 (Elucidation): b process_profile_of c holds when b proper_occurrent_part_of c&amp; there is some proper_occurrent_part d of c which has no parts in common with b &amp; is mutually dependent on b&amp; is such that b, c and d occupy the same temporal region</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000119>
         <rdfs:label xml:lang="en">process profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_680"/>
+        <obo:IAO_0000111 xml:lang="en">alzheimer&apos;s disease</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A tauopathy that is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability and results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">alzheimer&apos;s disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <obo:IAO_0000111 xml:lang="en">neurodegenerative disease</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A central nervous system disease that results in the progressive deterioration of function or structure of neurons.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">neurodegenerative disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <obo:IAO_0000111 xml:lang="en">central nervous system disease</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">central nervous system disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000111 xml:lang="en">disease</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1289"/>
+        <obo:IAO_0000111 xml:lang="en">tauopathy</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A neurodegenerative disease that has_material_basis_in the pathological aggregation of tau protein in so-called neurofibrillary tangles (NFT) in the human brain.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">tauopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_863">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000111 xml:lang="en">nervous system disease</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">nervous system disease</rdfs:label>
     </owl:Class>
     
 
