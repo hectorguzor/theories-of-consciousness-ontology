@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/jscaj6e9.owl" uri="file:/C:/Users/wilwa/OneDrive/Desktop/BFO_outputs/BFO_output.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl" uri="https://raw.githubusercontent.com/BFO-ontology/BFO-2020/refs/heads/master/src/owl/bfo-core.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1744215859732" name="http://ontofox.hegroup.org/gb96kc0d.owl" uri="Ontofox_outputs/GO_output.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1744215859732" name="http://ontofox.hegroup.org/kwpc2xya.owl" uri="Ontofox_outputs/BFO_output.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1744215859732" name="http://ontofox.hegroup.org/nex3ee5h.owl" uri="Ontofox_outputs/MFO_output.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1744215859732" name="http://www.semanticweb.org/wilwa/ontologies/2025/2/untitled-ontology-218/" uri="tco.owl"/>
+    </group>
+</catalog>

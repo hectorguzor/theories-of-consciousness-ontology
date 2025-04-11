@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/nex3ee5h.owl#"
+     xml:base="http://ontofox.hegroup.org/nex3ee5h.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/nex3ee5h.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000017">
+        <rdfs:label xml:lang="en">consciousness</rdfs:label>
+        <obo:IAO_0000115>Consciousness is an inseparable part of all mental processes. It is that part of the mental process that:
+a) confers a subjective perspective, a phenomenology, an experience of the mental process of which it is a part; and
+b) intends the object or event that the mental process is about, should such exist; i.e., it confers intentionality on the mental process.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">consciousness</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mf.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">representation</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">representation</obo:IAO_0000111>
+        <obo:IAO_0000115>A dependent continuant which is about a portion of reality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mf.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000073">
+        <rdfs:label xml:lang="en">intentionality</rdfs:label>
+        <obo:IAO_0000115>Intentionality is the fundamental quality of conscious mental processes of always having content, of being directed towards, or about something.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">intentionality</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mf.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000074">
+        <rdfs:label xml:lang="en">bodily quality</rdfs:label>
+        <obo:IAO_0000115>A bodily quality is a quality that inheres in some extended organism.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">bodily quality</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mf.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000075">
+        <rdfs:label xml:lang="en">mental quality</rdfs:label>
+        <obo:IAO_0000115>A mental quality is a bodily quality that inheres in those structures of the extended organism that are essential for mental functioning.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">mental quality</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mf.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
